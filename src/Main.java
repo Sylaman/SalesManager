@@ -4,6 +4,9 @@ public class Main {
         SalesManager salesManager2 = new SalesManager(new int[]{900, 100000, 9999});
 
         System.out.println("Максимальная сумма продажи первого менеджера: " + salesManager1.max());
+        System.out.println("Обрезанное среднее продаж второго менеджера: " + salesManager1.calculateCutOffAverage());
         System.out.println("Максимальная сумма продажи второго менеджера: " + salesManager2.max());
+        System.out.println("Обрезанное среднее продаж второго менеджера: " + salesManager2.calculateCutOffAverage());
+
     }
 }
